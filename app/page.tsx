@@ -1,3 +1,10 @@
+import Banner from './home/banner';
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <main>
+      {/* Banner */}
+      <Banner />
+    </main>
+  );
 }
